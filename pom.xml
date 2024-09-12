@@ -13,7 +13,7 @@
 	<groupId>com.github.hiwepy</groupId>
 	<artifactId>log4j2-plus-spring-boot-starter</artifactId>
 	<description>Spring Boot Starter For Log4j 2.x</description>
-	<version>1.0.7-SNAPSHOT</version>
+	<version>2.3.x.20240823.RELEASE</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<url>https://github.com/hiwepy/${project.artifactId}</url>
 	<packaging>jar</packaging>
@@ -35,7 +35,7 @@
 	<developers>
 		<developer>
 			<name>wandl</name>
-			<email>hnxyhcwdl1003@163.com</email>
+			<email>hiwepy@gmail.com</email>
 			<roles>
 				<role>developer</role>
 			</roles>
@@ -365,32 +365,7 @@
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
 		<maven-nexus-staging-plugin.version>1.6.8</maven-nexus-staging-plugin.version>
-		<sharding-jdbc.version>4.1.1</sharding-jdbc.version>
 	</properties>
-
-	<dependencyManagement>
-		<dependencies>
-
-			<!-- https://mvnrepository.com/artifact/org.apache.shardingsphere -->
-			<dependency>
-				<groupId>org.apache.shardingsphere</groupId>
-				<artifactId>sharding-jdbc-core</artifactId>
-				<version>${sharding-jdbc.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.shardingsphere</groupId>
-				<artifactId>sharding-transaction-spring</artifactId>
-				<version>${sharding-transaction.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.shardingsphere/sharding-jdbc-spring-boot-starter -->
-			<dependency>
-			    <groupId>org.apache.shardingsphere</groupId>
-			    <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
-			    <version>${sharding-jdbc.version}</version>
-			</dependency>
-
-		</dependencies>
-	</dependencyManagement>
 
 	<dependencies>
 
