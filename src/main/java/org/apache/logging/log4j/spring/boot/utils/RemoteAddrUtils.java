@@ -1,6 +1,6 @@
 package org.apache.logging.log4j.spring.boot.utils;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 import org.springframework.util.StringUtils;
 
